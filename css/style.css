@@ -22,7 +22,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 85px;
-    padding: 5px 10%;
+    padding: 5px 5%;
 }
 
 .navbar {
@@ -62,6 +62,10 @@ header nav img {
 .imagenbienvenida2 {
     margin-bottom: 70px;
     width: 1900px
+}
+
+ul {
+    list-style: none;
 }
 
 h1 {
@@ -120,6 +124,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 
@@ -152,4 +157,102 @@ footer section {
 footer img {
     margin-left: 20px;
     width: 50px
+}
+
+
+@media(max-width: 1024px) {
+    .contenedor {
+        font-size: 14px;
+        display: grid;
+        grid-template-columns: 1fr 1fr
+    }
+}
+
+@media(max-width:768px){
+
+    nav {.
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .navbar{
+        display: flex;
+    }
+
+    h1{
+        margin-top: 50px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .contenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: small;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    h6 {
+        text-align: center;
+        margin-top: 15px;
+        margin-left: 65px;
+        margin-bottom: 5px;
+    }
+}
+
+@media(max-width:425px){
+
+    nav{
+        font-size: 14px;
+        margin-bottom: 220px;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .contenedor {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media(max-width:375px) {
+
+    .navbar{
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .contenedor {
+        font-size: 12px;
+    }
+
+    footer {
+        margin-right: 40px;
+    }
+}
+
+@media(max-width:320px) {
+
+    footer{
+        align-items: center;
+        margin-left: 25px;
+    }
 }
