@@ -23,6 +23,7 @@ nav {
     align-items: center;
     height: 85px;
     padding: 5px 5%;
+    margin-top: 20px;
 }
 
 .navbar {
@@ -50,9 +51,13 @@ header nav img {
 
 .imageninformation {
     margin-left: 50px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: 900px;
+}
+
+.sectionprincipal {
+    display: grid;
+    grid-template-columns: 1fr
 }
 
 .imagenbienvenida {
@@ -89,13 +94,12 @@ h6 {
 }
 
 p {
-    text-indent: 10px;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: bold;
     font-style: normal;
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     margin-left: 30px;
     display: flex;
     flex-direction: column;
@@ -161,29 +165,49 @@ footer img {
 
 
 @media(max-width: 1024px) {
+
+    nav {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
     .contenedor {
         font-size: 14px;
         display: grid;
         grid-template-columns: 1fr 1fr
     }
+
+    .information {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .information p {
+        margin-left: 55px;
+    }
 }
 
-@media(max-width:768px){
+@media(max-width:768px) {
 
-    nav {.
+    nav {
         display: flex;
         flex-direction: column;
         margin-top: 30px;
     }
 
-    .navbar{
+    .navbar {
         display: flex;
     }
 
-    h1{
+    h1 {
         margin-top: 50px;
-        margin-bottom: 10px;
         text-align: center;
+    }
+
+
+    .imageninformation {
+        width: 630px;
     }
 
     .contenedor {
@@ -207,20 +231,32 @@ footer img {
     }
 }
 
-@media(max-width:425px){
+@media(max-width:425px) {
 
-    nav{
-        font-size: 14px;
-        margin-bottom: 220px;
+    nav {
+        font-size: 13px;
+        margin-bottom: 230px;
     }
 
-    .navbar{
+    .navbar {
         display: flex;
         flex-direction: column;
+        margin-top: 10px;
     }
 
     h1 {
         font-size: 35px;
+    }
+
+    .imageninformation {
+        width: 370px;
+        align-items: center;
+        margin-left: 9px;
+    }
+
+    .information p {
+        margin-left: 10px;
+        font-size: 10px;
     }
 
     .contenedor {
@@ -232,12 +268,18 @@ footer img {
 
 @media(max-width:375px) {
 
-    .navbar{
+    .navbar {
         font-size: 12px;
     }
 
     h1 {
         font-size: 25px;
+    }
+
+    .imageninformation {
+        width: 320px;
+        align-items: center;
+        margin-left: 9px;
     }
 
     .contenedor {
@@ -247,12 +289,40 @@ footer img {
     footer {
         margin-right: 40px;
     }
+
+    footer img {
+        width: 45px;
+    }
 }
 
 @media(max-width:320px) {
 
-    footer{
+
+    .navbar {
+        font-size: 11px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .imageninformation {
+        width: 265px;
+        align-items: center;
+        margin-left: 9px;
+    }
+
+    .information p {
+        margin-left: 11px;
+        font-size: 9px;
+    }
+
+    footer {
         align-items: center;
         margin-left: 25px;
+    }
+
+    footer img {
+        width: 40px;
     }
 }
