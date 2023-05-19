@@ -1,0 +1,31 @@
+header {
+    background-color: $background-principal;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 85px;
+        padding: 5px 5%;
+    }
+
+    div {
+        img {
+            height: 50px;
+            width: auto;
+        }
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        gap: 25px;
+
+        li {
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}

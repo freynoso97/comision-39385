@@ -1,0 +1,21 @@
+footer {
+    background-color: $background-principal;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .imagenes-footer {
+        img {
+            margin-left: 20px;
+            width: 50px
+        }
+        
+    }
+
+    .texto-footer {
+        h6 {
+            text-align: right;
+            margin-right: 50px;
+            color: white;
+        }
+    }
+}
