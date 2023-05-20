@@ -2,6 +2,8 @@ footer {
     background-color: $background-principal;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 15px;
+    
 
     .imagenes-footer {
         img {
