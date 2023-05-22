@@ -1,0 +1,47 @@
+@media (max-width:1024px) {
+
+    header {
+        nav {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+    main {
+        .information {
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+
+            img {
+                margin-left: 50px;
+                margin-bottom: 30px;
+                width: 900px;
+            }
+
+            p {
+
+                margin-left: 55px;
+            }
+        }
+
+
+        .contenedor {
+            font-size: 14px;
+            display: grid;
+            grid-template-columns: 1fr 1fr
+        }
+
+        .videos {
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+
+            img {
+                width: 900px;
+            }
+        }
+
+    }
+
+}
