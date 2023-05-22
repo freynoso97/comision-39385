@@ -6,9 +6,18 @@
     }
 
     main {
+
         h1 {
             font-size: 25px;
             margin-left: 15px;
+        }
+
+        .imagenbienvenida {
+            width: 375px;
+        }
+
+        .imagenbienvenida2 {
+            width: 375px;
         }
 
         .information {
@@ -19,34 +28,33 @@
             p {
                 font-size: 8px;
             }
-
         }
 
         .contenedor {
             font-size: 12px;
         }
 
-        .videos{
-            img{
+        .videos {
+            img {
                 width: 320px;
             }
         }
     }
 
 
-footer {
-    margin-right: 30px;
+    footer {
+        margin-right: 30px;
 
-    .imagenes-footer {
-        img {
-            width: 40px;
+        .imagenes-footer {
+            img {
+                width: 40px;
+            }
+        }
+
+        .texto-footer {
+            h6 {
+                font-size: 9px;
+            }
         }
     }
-    .texto-footer{
-        h6{
-            font-size: 9px;
-        }
-    }
-
-}
 }

@@ -31,10 +31,10 @@ header ul li a {
 main {
   background-color: #2D2727;
 }
-main .imagenbienvenida {
+main main .imagenbienvenida {
   width: 1900px;
 }
-main .imagenbienvenida2 {
+main main .imagenbienvenida2 {
   width: 1900px;
 }
 
@@ -242,6 +242,12 @@ footer .texto-footer h6 {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  main .imagenbienvenida {
+    width: 1024px;
+  }
+  main .imagenbienvenida2 {
+    width: 1024px;
+  }
   main .information {
     display: grid;
     grid-template-columns: 1fr;
@@ -277,6 +283,12 @@ footer .texto-footer h6 {
   }
   header .navbar {
     display: flex;
+  }
+  main .imagenbienvenida {
+    width: 768px;
+  }
+  main .imagenbienvenida2 {
+    width: 768px;
   }
   main h1 {
     margin-top: 40px;
@@ -315,6 +327,12 @@ footer .texto-footer h6 {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+  }
+  main .imagenbienvenida {
+    width: 425px;
+  }
+  main .imagenbienvenida2 {
+    width: 425px;
   }
   main h1 {
     font-size: 35px;
@@ -358,6 +376,12 @@ footer .texto-footer h6 {
     font-size: 25px;
     margin-left: 15px;
   }
+  main .imagenbienvenida {
+    width: 375px;
+  }
+  main .imagenbienvenida2 {
+    width: 375px;
+  }
   main .information img {
     width: 340px;
   }
@@ -386,6 +410,12 @@ footer .texto-footer h6 {
   }
   main h1 {
     font-size: 24px;
+  }
+  main .imagenbienvenida {
+    width: 320px;
+  }
+  main .imagenbienvenida2 {
+    width: 320px;
   }
   main .information img {
     width: 290px;

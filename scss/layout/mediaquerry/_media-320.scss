@@ -7,39 +7,50 @@
     }
 
     main {
+        
         h1 {
             font-size: 24px;
         }
 
+        .imagenbienvenida {
+
+            width: 320px;
+        }
+
+        .imagenbienvenida2 {
+            width: 320px;
+        }
+
         .information {
-            img{
+            img {
                 width: 290px;
                 align-items: center;
             }
+
             p {
                 font-size: 7px;
             }
         }
 
-        .videos{
-            img{
+        .videos {
+            img {
                 width: 270px;
             }
         }
-        
+
     }
 
-    footer{
-        .imagenes-footer{
-            img{
+    footer {
+        .imagenes-footer {
+            img {
                 width: 35px;
             }
         }
-        .texto-footer{
-            h6{
+
+        .texto-footer {
+            h6 {
                 font-size: 8px;
             }
         }
     }
 }
-

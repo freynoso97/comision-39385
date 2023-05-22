@@ -8,6 +8,16 @@
     }
 
     main {
+
+        .imagenbienvenida {
+
+            width: 1024px;
+        }
+
+        .imagenbienvenida2 {
+            width: 1024px;
+        }
+
         .information {
             display: grid;
             grid-template-columns: 1fr;
@@ -20,7 +30,6 @@
             }
 
             p {
-
                 margin-left: 55px;
             }
         }
@@ -42,6 +51,8 @@
             }
         }
 
-    }
 
+
+
+    }
 }
