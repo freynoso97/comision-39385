@@ -1,434 +1,526 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {
-  background-color: #2D2727;
+    background-color: #2D2727;
 }
+
 header nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 85px;
-  padding: 5px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 5%;
 }
+
 header div img {
-  height: 50px;
-  width: auto;
+    height: 50px;
+    width: auto;
 }
+
 header ul {
-  display: flex;
-  list-style-type: none;
-  gap: 25px;
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
 }
+
 header ul li a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 main {
-  background-color: #2D2727;
+    background-color: #2D2727;
 }
-main .imagenbienvenida, main .imagenbienvenida2 {
-  width: 1900px;
+
+main .imagenbienvenida,
+main .imagenbienvenida2 {
+    width: 1900px;
 }
+
 body {
-  background-color: #2D2727;
+    background-color: #2D2727;
 }
 
 main .tituloinformation {
-  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
+
 @-webkit-keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
 }
+
 @keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
 }
+
 main h1 {
-  text-align: center;
-  letter-spacing: 2px;
-  font-family: "Delicious Handrawn", cursive;
-  font-size: 50px;
-  color: white;
-  margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: "Delicious Handrawn", cursive;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
 }
+
 main .information {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-}
-main .information img {
-  margin-left: 50px;
-  margin-bottom: 30px;
-  width: 900px;
-}
-main .information p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  font-style: normal;
-  color: white;
-  margin-bottom: 20px;
-  margin-left: 30px;
-  display: flex;
-  flex-direction: column;
-}
-
-main .titulotracklist {
-  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
-@-webkit-keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-@keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-main h1 {
-  text-align: center;
-  letter-spacing: 2px;
-  font-family: "Delicious Handrawn", cursive;
-  font-size: 50px;
-  color: white;
-}
-main .contenedor {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
-  margin: 10px;
-}
-main .contenedor .card {
-  background-color: white;
-  padding: 15px;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-main .titulovideos {
-  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
-@-webkit-keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-@keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-main h1 {
-  text-align: center;
-  letter-spacing: 2px;
-  font-family: "Delicious Handrawn", cursive;
-  font-size: 50px;
-  color: white;
-  margin-bottom: 10px;
-}
-main .videos {
-  display: grid;
-  margin: 10px;
-  grid-template-columns: 1fr;
-  gap: 5px;
-}
-main .cardvideos {
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-main .tituloshop {
-  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
-@-webkit-keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-@keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-main h1 {
-  text-align: center;
-  letter-spacing: 2px;
-  font-family: "Delicious Handrawn", cursive;
-  font-size: 50px;
-  color: white;
-  margin: 20px;
-}
-
-footer {
-  background-color: #2D2727;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 15px;
-}
-footer .imagenes-footer img {
-  margin-left: 20px;
-  width: 50px;
-}
-footer .texto-footer h6 {
-  text-align: right;
-  margin-right: 50px;
-  color: white;
-}
-
-@media (max-width: 1024px) {
-  header nav {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  main .imagenbienvenida, main .imagenbienvenida2 {
-    width: 1024px;
-  }
-  main .imagenbienvenida2 {
-    width: 1024px;
-  }
-  main .information {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-  }
-  main .information img {
+}
+
+main .information img {
     margin-left: 50px;
     margin-bottom: 30px;
     width: 900px;
-  }
-  main .information p {
-    margin-left: 55px;
-  }
-  main .contenedor {
-    font-size: 14px;
+}
+
+main .information p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+main .titulotracklist {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+main h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: "Delicious Handrawn", cursive;
+    font-size: 50px;
+    color: white;
+}
+
+main .contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 10px;
+}
+
+main .contenedor .card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main .titulovideos {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+main h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: "Delicious Handrawn", cursive;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+main .videos {
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 1fr;
+    gap: 5px;
+}
+
+main .cardvideos {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .tituloshop {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+main h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: "Delicious Handrawn", cursive;
+    font-size: 50px;
+    color: white;
+    margin: 20px;
+}
+
+footer {
+    background-color: #2D2727;
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-  main .videos {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-  }
-  main .videos img {
-    width: 900px;
-  }
+    margin: 15px;
 }
+
+footer .imagenes-footer img {
+    margin-left: 20px;
+    width: 50px;
+}
+
+footer .texto-footer h6 {
+    text-align: right;
+    margin-right: 50px;
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    header nav {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    main .imagenbienvenida,
+    main .imagenbienvenida2 {
+        width: 1024px;
+    }
+
+    main .imagenbienvenida2 {
+        width: 1024px;
+    }
+
+    main .information {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    main .information img {
+        margin-left: 50px;
+        margin-bottom: 30px;
+        width: 900px;
+    }
+
+    main .information p {
+        margin-left: 55px;
+    }
+
+    main .contenedor {
+        font-size: 14px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main .videos {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    main .videos img {
+        width: 900px;
+    }
+}
+
 @media (max-width: 768px) {
-  header nav {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-  }
-  header .navbar {
-    display: flex;
-  }
-  main .imagenbienvenida, main .imagenbienvenida2 {
-    width: 768px;
-  }
-  main .imagenbienvenida2 {
-    width: 768px;
-  }
-  main h1 {
-    margin-top: 40px;
-    text-align: center;
-  }
-  main .information img {
-    width: 630px;
-  }
-  main .videos {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-  }
-  main .videos img {
-    width: 700px;
-  }
-  footer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 30px;
-  }
-  footer .texto-footer h6 {
-    text-align: center;
-    margin-top: 15px;
-    margin-left: 65px;
-    margin-bottom: 5px;
-  }
+    header nav {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    header .navbar {
+        display: flex;
+    }
+
+    main .imagenbienvenida,
+    main .imagenbienvenida2 {
+        width: 768px;
+    }
+
+    main .imagenbienvenida2 {
+        width: 768px;
+    }
+
+    main h1 {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    main .information img {
+        width: 630px;
+    }
+
+    main .videos {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    main .videos img {
+        width: 700px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    footer .texto-footer h6 {
+        text-align: center;
+        margin-top: 15px;
+        margin-left: 65px;
+        margin-bottom: 5px;
+    }
 }
+
 @media (max-width: 425px) {
-  header nav {
-    font-size: 14px;
-    margin-bottom: 200px;
-  }
-  header .navbar {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-  }
-  main .imagenbienvenida, main .imagenbienvenida2 {
-    width: 425px;
-  }
-  main .imagenbienvenida2 {
-    width: 425px;
-  }
-  main h1 {
-    font-size: 35px;
-  }
-  main .information img {
-    width: 370px;
-    margin: auto;
-  }
-  main .information p {
-    font-size: 9px;
-    margin: auto;
-    margin-top: 20px;
-  }
-  main .contenedor {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  main .videos {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-  }
-  main .videos img {
-    width: 375px;
-  }
-  footer {
-    margin-right: 30px;
-  }
-  footer .imagenes-footer img {
-    margin-left: 15px;
-  }
-  footer .texto-footer h6 {
-    font-size: 9px;
-  }
+    header nav {
+        font-size: 14px;
+        margin-bottom: 200px;
+    }
+
+    header .navbar {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    main .imagenbienvenida,
+    main .imagenbienvenida2 {
+        width: 425px;
+    }
+
+    main .imagenbienvenida2 {
+        width: 425px;
+    }
+
+    main h1 {
+        font-size: 35px;
+    }
+
+    main .information img {
+        width: 370px;
+        margin: auto;
+    }
+
+    main .information p {
+        font-size: 9px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    main .contenedor {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    main .videos {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    main .videos img {
+        width: 375px;
+    }
+
+    footer {
+        margin-right: 30px;
+    }
+
+    footer .imagenes-footer img {
+        margin-left: 15px;
+    }
+
+    footer .texto-footer h6 {
+        font-size: 9px;
+    }
 }
+
 @media (max-width: 375px) {
-  header .navbar {
-    font-size: 12px;
-  }
-  main h1 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  main .imagenbienvenida, main .imagenbienvenida2 {
-    width: 375px;
-  }
-  main .imagenbienvenida2 {
-    width: 375px;
-  }
-  main .information img {
-    width: 340px;
-  }
-  main .information p {
-    font-size: 8px;
-  }
-  main .contenedor {
-    font-size: 12px;
-  }
-  main .videos img {
-    width: 320px;
-  }
-  footer {
-    margin-right: 30px;
-  }
-  footer .imagenes-footer img {
-    width: 40px;
-  }
-  footer .texto-footer h6 {
-    font-size: 9px;
-  }
+    header .navbar {
+        font-size: 12px;
+    }
+
+    main h1 {
+        font-size: 25px;
+        margin-left: 15px;
+    }
+
+    main .imagenbienvenida,
+    main .imagenbienvenida2 {
+        width: 375px;
+    }
+
+    main .imagenbienvenida2 {
+        width: 375px;
+    }
+
+    main .information img {
+        width: 340px;
+    }
+
+    main .information p {
+        font-size: 8px;
+    }
+
+    main .contenedor {
+        font-size: 12px;
+    }
+
+    main .videos img {
+        width: 320px;
+    }
+
+    footer {
+        margin-right: 30px;
+    }
+
+    footer .imagenes-footer img {
+        width: 40px;
+    }
+
+    footer .texto-footer h6 {
+        font-size: 9px;
+    }
 }
+
 @media (max-width: 320px) {
-  header .navbar {
-    font-size: 11px;
-  }
-  main h1 {
-    font-size: 24px;
-  }
-  main .imagenbienvenida, main .imagenbienvenida2 {
-    width: 320px;
-  }
-  main .imagenbienvenida2 {
-    width: 320px;
-  }
-  main .information img {
-    width: 290px;
-    align-items: center;
-  }
-  main .information p {
-    font-size: 7px;
-  }
-  main .videos img {
-    width: 270px;
-  }
-  footer .imagenes-footer img {
-    width: 35px;
-  }
-  footer .texto-footer h6 {
-    font-size: 8px;
-  }
+    header .navbar {
+        font-size: 11px;
+    }
+
+    main h1 {
+        font-size: 24px;
+    }
+
+    main .imagenbienvenida,
+    main .imagenbienvenida2 {
+        width: 320px;
+    }
+
+    main .imagenbienvenida2 {
+        width: 320px;
+    }
+
+    main .information img {
+        width: 290px;
+        align-items: center;
+    }
+
+    main .information p {
+        font-size: 7px;
+    }
+
+    main .videos img {
+        width: 270px;
+    }
+
+    footer .imagenes-footer img {
+        width: 35px;
+    }
+
+    footer .texto-footer h6 {
+        font-size: 8px;
+    }
 }
 
 /*# sourceMappingURL=style.css.map */
