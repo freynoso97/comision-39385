@@ -6,6 +6,6 @@ main {
         }
 
         .imagenbienvenida2 {
-            width: 1900px;
+            @extend .imagenbienvenida
         }
     }
